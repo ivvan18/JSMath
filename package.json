@@ -1,0 +1,25 @@
+{
+  "name": "jsmath",
+  "version": "1.0.0",
+  "description": "Npm lib version of public lib",
+  "main": "./easy/load.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivvan18/JSMath.git"
+  },
+  "keywords": [
+    "JSMath"
+  ],
+  "author": "Ivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivvan18/JSMath/issues"
+  },
+  "homepage": "https://github.com/ivvan18/JSMath#readme"
+}
