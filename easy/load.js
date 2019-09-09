@@ -158,7 +158,7 @@ if (jsMath.Easy.root == "") {
     jsMath.Easy.root = jsMath.Easy.root.replace(/\/(jsMath\/(easy\/)?)?[^\/]*$/,"/jsMath");
   }
 }
-jsMath.Easy.root = jsMath.Easy.root.replace(/\/$/,""); // trim trailing "/" if any
+jsMath.Easy.root = 'vendor'; // trim trailing "/" if any
 
 document.write('<script src="'+jsMath.Easy.root+'/jsMath-easy-load.js"><'+'/script>');
 
